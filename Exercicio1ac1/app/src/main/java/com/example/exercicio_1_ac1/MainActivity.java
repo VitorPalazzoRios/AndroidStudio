@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
         }
     int numero;
+    String Numerooo;
     double resultado;
     String nome;
     int idade;
@@ -28,6 +29,13 @@ public class MainActivity extends AppCompatActivity {
     Apolice apolicee = new Apolice();
 
     public void CalcularClick(View view) {
+        apolicee.setNumero(apolicee.getNumero()+1);
+        numero = apolicee.getNumero();
+        Numerooo = String.valueOf(numero);
+
+        EditText editTextNumero = (EditText) findViewById(R.id.editTextNumero);
+        editTextNumero.setText(Numerooo);
+
         EditText editTextNome = (EditText) findViewById(R.id.editTextNome);
         nome = editTextNome.getText().toString();
         EditText editTextIdade = (EditText) findViewById(R.id.editTextIdade);

@@ -1,7 +1,7 @@
 package com.example.exercicio_1_ac1;
 
 public class Apolice {
-    private int numero;
+    private int numero = 0;
     private String nome;
     private int idade;
     private char sexo;
