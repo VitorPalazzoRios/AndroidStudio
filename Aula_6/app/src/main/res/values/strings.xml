@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Aula_6</string>
+    <string name="ver_mapa">Ver mapa</string>
+    <string name="abrir_site">abrir site</string>
+    <string name="voltar">Voltar</string>
+    <string name="situado_em_rea_de_restinga_na_plan_cie_arenosa_da_baixada_de_jacarepagu_o_parque_foi_criado_com_o_objetivo_de_preservar_a_lagoinha_das_tachas_e_seu_entorno_local_de_ocorr_ncia_de_esp_cies_de_fauna_e_flora_consideradas_raras_e_amea_adas_de_extin_o_a_manuten_o_das_condi_es_naturais_do_parque_permite_a_sobreviv_ncia_do_jacar_de_papo_amarelo_um_dos_principais_moradores_do_local">Situado em área de restinga, na planície arenosa da Baixada de Jacarepaguá, o Parque foi criado com o objetivo de preservar a Lagoinha das Tachas e seu entorno, local de ocorrência de espécies de fauna e flora consideradas raras e ameaçadas de extinção. A manutenção das condições naturais do Parque permite a sobrevivência do Jacaré-de-papo-amarelo um dos principais moradores do local.</string>
+    <string name="telefonar">telefonar</string>
+</resources>

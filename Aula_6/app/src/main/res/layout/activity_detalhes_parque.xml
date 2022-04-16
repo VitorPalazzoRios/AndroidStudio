@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".detalhesParque">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnMapa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="btnAbrirMapa2"
+                android:text="@string/ver_mapa" />
+
+            <Button
+                android:id="@+id/btnSite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="btnAbrirNavegadorClick2"
+                android:text="@string/abrir_site" />
+
+            <Button
+                android:id="@+id/btnLigar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="btnTelefonarCLick2"
+                android:text="@string/telefonar" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/situado_em_rea_de_restinga_na_plan_cie_arenosa_da_baixada_de_jacarepagu_o_parque_foi_criado_com_o_objetivo_de_preservar_a_lagoinha_das_tachas_e_seu_entorno_local_de_ocorr_ncia_de_esp_cies_de_fauna_e_flora_consideradas_raras_e_amea_adas_de_extin_o_a_manuten_o_das_condi_es_naturais_do_parque_permite_a_sobreviv_ncia_do_jacar_de_papo_amarelo_um_dos_principais_moradores_do_local"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="295dp"
+                android:contentDescription="TODO"
+                app:srcCompat="@drawable/parque_chico_mendes_6" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/voltar" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
